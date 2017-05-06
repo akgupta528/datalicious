@@ -1,0 +1,16 @@
+<suite name="dataliciousTestSuite">
+<test name = "dataliciousTest">
+<parameter name="browser" value="chrome" />
+<parameter name="pathForFirefoxDriver" value="PathForGeckodriver"/>
+<parameter name="pathForChromeDriver" value="PathForChromeDriver"/>
+<parameter name="pathForHarLog" value="pathForCsvFileForWritingData"/>
+<parameter name="SearchItem" value="datalicious"/>
+<parameter name="filter_URL_1" value="collect"/>
+<parameter name="filter_URL_2" value="optimahub"/>
+<parameter name="QueryStringName_1" value="dt"/>
+<parameter name="QueryStringName_2" value="dp"/>
+<classes>
+<class name ="dataliciousTestCase.dataliciousTest"/>
+</classes>
+</test>
+</suite>

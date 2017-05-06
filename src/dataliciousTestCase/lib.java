@@ -28,14 +28,12 @@ public class lib {
 	  int totalNumberofEntries= har.getLog().getEntries().size();
 	  for(int indexForEntries=0;indexForEntries<totalNumberofEntries;indexForEntries++){
 		  if(har.getLog().getEntries().get(indexForEntries).getRequest().getUrl().indexOf(URL_1) !=-1 || har.getLog().getEntries().get(indexForEntries).getRequest().getUrl().indexOf(URL_2) !=-1 ){
-			  System.out.println(har.getLog().getEntries().get(indexForEntries).getRequest().getUrl());
 			  int queryStringSize=har.getLog().getEntries().get(indexForEntries).getRequest().getQueryString().size();
 			  for(int indexForQueryString=0;indexForQueryString<queryStringSize;indexForQueryString++){
 			   if(har.getLog().getEntries().get(indexForEntries).getRequest().getQueryString().get(indexForQueryString).getName().equalsIgnoreCase(QueryStringName_1) || har.getLog().getEntries().get(indexForEntries).getRequest().getQueryString().get(indexForQueryString).getName().equalsIgnoreCase(QueryStringName_2)){
 				 String value=har.getLog().getEntries().get(indexForEntries).getRequest().getQueryString().get(indexForQueryString).getValue();
 				 value=value+"\n";
 				 lib.writeFile(pathForHarLog,value);
-				 System.out.println(value);
 			  }
 		  }
 		 }

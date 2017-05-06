@@ -53,8 +53,6 @@ public class dataliciousTest {
 	public void datalicious_network_log_test(String SearchItem,String pathForHarLog,String URL_1,String URL_2,String QueryStringName_1,String QueryStringName_2 ) throws InterruptedException, Exception {
 	  lib.openBrowser(proxy,driver,SearchItem);
 	  lib.captureNetworkLog(proxy,pathForHarLog,URL_1, URL_2, QueryStringName_1, QueryStringName_2);
-	  //lib.writeFile(pathForHarLog);
-	
 	  
   }
 		
