@@ -23,7 +23,6 @@ Once we start the proxy and open the URL through browsermob proxy we can capture
 
 
 # As I am using the data driver approach. You can filter any url and by passing the queryString parameter
-Eg:
 <parameter name="SearchItem" value="datalicious"/>
 <parameter name="filter_URL_1" value="collect"/>
 <parameter name="filter_URL_2" value="optimahub"/>
