@@ -1,5 +1,4 @@
 # Datalicious
-1) Datalicious TestCase
 
 # Detailed explaination about the Project
 
