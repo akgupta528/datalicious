@@ -35,6 +35,18 @@ Once we start the proxy and open the URL through browsermob proxy we can capture
 2)Used TestNG for Data driver approach
 3)Separate file for common function
 
+# Things you need to add before running this project
+1)Add Selenium standalone server in your project
+2)Passing the path for chromedriver,Firefox driver and path for csv file
+3)Add TestNG Library on your project and browsermob proxy jars.
+
+
+
+
+
+
+
+
 
 
 
