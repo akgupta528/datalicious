@@ -6,7 +6,7 @@ In this project there is a one src foler and one xml file.
 
 datalicious.xml --->  This xml file is used for passing the data for running the test Eg: browser name, driver, searchitem in google etc.
 
-src foler contains two folder.
+src folder contains two folder.
 
 1)dataliciousAccessorRepository	: It contains all the accessor repository files which is used in test cases.
 2)dataliciousTestCase: It contains two file one dataliciousTest.java which has the testcases and the other is lib.java which has common functions which are used in testcase.
